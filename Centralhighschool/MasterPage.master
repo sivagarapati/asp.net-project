@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <link href="style/Style.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style/Style.css" rel="stylesheet" type="text/css" />
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 113px;
+            height: 62px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+           <img alt="ucm" class="auto-style1" src="Images/ucm.jpg" />Central High School
+        </div>
+        <div id="menu">
+            <div class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a href="homepage.aspx">HOME</a></li>
+                    <li><a href="Academics.aspx">ACADEMICS</a></li>
+                    <li><a href="Sports.aspx">SPORTS</a></li>
+                    <li><a href="Contactus.aspx">CONTACTUS</a></li>
+                    <li><a href="About.aspx">ABOUT</a></li>
+                    <li><a href="Login.aspx">LOGIN</a>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+    </form>
+</body>
+        
+</html>
+   
+           
