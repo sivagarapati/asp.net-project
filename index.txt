@@ -1,0 +1,4 @@
+requriements
+IDE: microsoft visual studio 2015
+database: microsoft SQL server 2014 management studio
+technology: HTML5,CSS3,BootStrap,JavaScript,Jquery and C#,ASP.NET
